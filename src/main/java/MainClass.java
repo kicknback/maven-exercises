@@ -2,7 +2,7 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-        System.out.println(CodeupCrypt.hashPassword("Codeup"));
+        System.out.println(CodeupCrypt.hashPassword("fer"));
 
     }
 

@@ -40,7 +40,7 @@ public class CodeupCrypt {
     }
 
     public static boolean checkPassword(String pass, String hash) {
-        return hash.equals(pass);
+        return hash.equals(hashPassword(pass));
     }
 
 }
